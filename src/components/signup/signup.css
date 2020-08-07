@@ -1,0 +1,123 @@
+.checkbox-span
+{
+font-size: 14px;
+font-weight: 700;
+margin-left: 10px;
+margin-top: 9px;
+}
+
+.radio-span{
+    font-size : 14px;
+    font-weight:500;
+}
+
+
+.radio-label{
+    font-weight: 600;
+    font-size: 14px;
+    margin-left: 10px;
+    margin: 0px 8px;
+}
+
+.linking-div input[type="radio"]{
+    margin-left: 10px;
+}
+
+.submit-otp-btn{
+    position: absolute;
+    /* bottom: 200px;
+    /* right: 24px; */
+    /* left: 357px;  */
+    /* bottom: 149px;
+    left: 144px; */
+    /* bottom: 122px;
+    left: 354px; */
+    bottom: 0;
+    right: 0;
+}
+
+.custom-modal-login .modal-content.sign-up{
+    overflow-y: scroll;
+    height: 500px;
+}
+
+/* width */
+.custom-modal-login .modal-content::-webkit-scrollbar {
+    width: 10px;
+  }
+  
+  /* Track */
+  .custom-modal-login .modal-content::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 5px grey; 
+    border-radius: 10px;
+  }
+   
+  /* Handle */
+  .custom-modal-login .modal-content::-webkit-scrollbar-thumb {
+    background: #f15e75; 
+    border-radius: 10px;
+  }
+  
+  /* Handle on hover */
+  .custom-modal-login .modal-content::-webkit-scrollbar-thumb:hover {
+    background: #f15e75; 
+  }
+  .modal-login-form .btn{
+      padding: 0 12px;
+  }
+  .req-error{
+    box-shadow: none;
+    -webkit-appearance: none;
+    display: block;
+    width: 100%;
+    height: 34px;
+    padding: 6px 12px;
+    font-size: 14px;
+    line-height: 1.428571429;
+    color: #555555;
+    background-color: #fff;
+    background-image: none;
+    border: 1px solid red;
+    border-radius: 4px;
+    height: 42px;
+  }
+  .margin10{
+    margin-bottom: 10px!important;
+  }
+  .margin-0{
+    margin: 0!important;
+  }
+  .cursor {
+    cursor: pointer;
+}
+
+.text-underline {
+  text-decoration: underline;
+}
+.form-group.form-control.email-input-7 {
+  border-bottom: none;
+}
+/* input[type=radio], input[type=checkbox] {
+  margin: 12px 0 0;
+} */
+
+label > input[type=radio] {
+    vertical-align: middle;
+    margin-top: -2px;
+    margin-right: 5px;
+}
+.pt-5 label {
+    margin-left: 10px;
+}
+.mt-5{
+    margin-top: 15px;
+}
+.pt-5{
+    padding-top: 10px;
+}
+
+.form-control.email-input-3.pt-5 {
+    border-radius: 0;
+    border-bottom: 0;
+}
+

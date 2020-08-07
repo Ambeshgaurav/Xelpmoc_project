@@ -1,0 +1,84 @@
+
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: #f7f8f9;
+  /* background-image: url('https://demo01.gethomey.io/wp-content/uploads/2018/10/01-3.jpg'); */
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+/* css for toastr */
+.redux-toastr .toastr .rrt-middle-container .rrt-title{
+  font-size : 13px !important;
+  font-weight : 600 !important;
+  margin-top : 5px!important;
+}
+
+.redux-toastr .toastr .close-toastr span{
+   color : #fff ;
+   font-weight : 600 !important;
+   top : 40%!important;
+}
+
+/* .redux-toastr .toastr .rrt-left-container .toastr-icon {
+    
+} */
+
+/* hidden and show css for app */
+.hidden {
+  display : none
+}
+
+.show {
+  display : block
+}
+
+/*  error css for app */
+.validate-error{
+  font-size: 12px;
+  font-weight: 500;
+  color: red;
+}   
+
+.bold-word-600{
+  font-weight: 600;
+}
+
+.bold-word-400{
+  font-weight: 400 !important;
+}
+
+/* loader css */
+.loader {
+  position: fixed;
+  z-index: 99999;
+  top: 0%;
+  right:0%;
+  height: 100%;
+  width: 100%;
+  background-color: white;
+  opacity: 0.6;
+  background: url('./assets/images/loading.svg') 50% 50% no-repeat rgb(249,249,249);
+}
+
+
+/* padding */
+.p-0{
+ padding:0px !important;
+}
+.p-1{
+  padding:10px;
+}
+
+/* Css by Shruti */
+
+

@@ -1,0 +1,110 @@
+/* Elegant modal login */
+/* .form-elegant .modal-header {
+    border-bottom: none;
+  }
+  
+  .form-elegant .modal-footer{
+    border-top: none;
+    flex-direction: column;
+  }
+  
+  .form-elegant .font-small {
+    font-size: 0.8rem;
+  }
+ */
+
+  /*  */
+  /* .modal-body-style{
+      padding:0px;
+  } */
+
+/*  facebook button  on signin */
+/* .btn-facebook-lined {
+    color: #506dab;
+    border: 1px solid #506dab;
+    background-color: transparent;
+    position: relative;
+    border: 1px solid #506dab;
+}
+
+.btn-facebook-lined .icon-facebook {
+    position: absolute;
+    left: 15px;
+    top: 13px;
+}
+
+.btn-facebook-lined:hover, .btn-facebook-lined:focus, .btn-facebook-lined:active {
+    color: #fff;
+    background-color: #506dab!important;
+}
+
+.btn-facebook-lined .icon-facebook:hover {
+    color: #fff !important;
+} */
+
+/* google button on sigin  */
+/* .btn-google-plus-lined {
+    color: #dd4b39;
+    border: 1px solid #dd4b39;
+    background-color: transparent;
+    position: relative;
+    border: 1px solid #dd4b39;
+    padding: 0px 38px!important;
+
+}
+
+.btn-google-plus-lined .icon-google {
+    position: absolute;
+    left: 15px;
+    top: 14px;
+}
+
+.btn-google-plus-lined:hover, .btn-google-plus-lined:focus, .btn-google-plus-lined:active {
+    color: #fff;
+    background-color: #dd4b39!important;
+}
+
+.btn-google-plus-lined .icon-google:hover {
+    color: #fff !important;
+} */
+
+/* //.btn-full-width { */
+    /* margin-bottom: 10px; */
+    /* width: 100%; */
+/* } */
+
+/* .btn {
+    font-weight: 700;
+    line-height: 40px;
+    padding: 0 30px;
+    text-align: center;
+}
+
+.btn:hover {
+    text-decoration: none;
+} */
+
+/* signin  */
+/* .btn-sign-in{
+    color: #ffffff;
+    background-color: #f15e75!important;
+    border-color: #f15e75!important;
+}
+
+.btn-sign-in:active:hover{
+    color: #fff;
+    background-color: #e41434 !important;
+    border-color: #a70f26 !important;
+} */
+
+
+.showModal{
+    opacity:1;
+    display:block;
+}
+
+.hideModal{
+    opacity:0;
+    display:none;
+}
+

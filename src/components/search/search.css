@@ -1,0 +1,13 @@
+
+.search-city {
+    position: fixed;
+    z-index: 1000;
+    top: 47%;
+    left:30%;
+    height: 100%;
+    width: 100%;
+    /* //background-color: white; */
+    /* position: absolute;
+    top: 320px;
+    right: 218px; */
+}

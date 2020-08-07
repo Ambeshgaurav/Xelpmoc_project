@@ -1,0 +1,80 @@
+/* header.header-nav.homey-in-view, 
+.main-search.homey-in-view, 
+.nav-area.homey-in-view {
+  opacity:1;
+  position: fixed !important;
+  visibility:visible;
+  transition: all 0.4s ease;
+  transform:translate(0, 0);
+  animation: fadein 0.4s;
+} */
+
+loggedin, .login-register a {  
+    font-size: 14px;
+    line-height: 80px;
+    font-weight: 700!important; 
+    font-family: Quicksand, sans-serif!important;
+}
+
+.transparent-header .navi > .main-menu > li > a:hover, .transparent-header .navi > .main-menu > li > a:active, .transparent-header .account-loggedin:hover, .transparent-header .account-loggedin:active, .transparent-header .login-register a:hover, .transparent-header .login-register a:active {
+    color: #ffffff;
+    cursor: pointer;
+}
+
+.login-register a, .account-loggedin, .account-login .login-register .fa {
+    color: #4f5962;
+    background-color: transparent;
+}
+
+.navi > .main-menu > li > a, .account-loggedin, .login-register a {
+    color: #4f5962;
+}
+.navi > .main-menu > li > a, .account-loggedin, .login-register a:hover {
+    cursor: pointer;
+}
+
+.transparent-header .user-img {
+    border: 1px solid #ffffff;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 40px;
+    background-color:transparent;
+    color: #ffffff;
+}
+
+.user-img {
+    border: 1px solid #f15e75;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 40px;
+    background-color: #f15e75;
+    color: #ffffff;
+}
+
+ul.login-register.list-inline li ul li a {
+    color: #000;
+}
+
+ul.login-register.list-inline li ul li a:hover{
+    color: #f15e75;
+}
+
+.account-login.nav.navbar-nav.navbar-right {
+    margin-right: 0;
+}
+
+.list-inline>li { 
+    padding-left: 18px; 
+}
+ul.login-register span {
+    font-size: 14px; 
+    font-weight: 700!important;
+    font-family: Quicksand, sans-serif!important;
+}
+.nav .open>a, .nav .open>a:focus, .nav .open>a:hover {
+    background-color: transparent!important; 
+}

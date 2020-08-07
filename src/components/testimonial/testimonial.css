@@ -1,0 +1,10 @@
+.test-image{
+    line-height: 44px;
+    margin: 0 auto;
+    width: 48px;
+    border-radius: 50% !important;
+    display: block;
+    height: auto;
+    max-width: 100%;
+    vertical-align: middle;
+}

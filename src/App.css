@@ -1,0 +1,370 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.app-image{
+  /* height: 650px;
+  padding: 0px;
+  margin: 0px;
+  max-width: 1286px; */
+  /* background-image: url('./assets/images/background-image.jpg');
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  transition: transform 100ms;
+  max-width: 1286px;
+  height: 650px;
+  padding: 0px;
+  margin: 0px; */
+}
+
+
+/* .app-image {
+  background: url('./assets/images/background-image.jpg') no-repeat;
+  background-position: center;
+  background-size: cover;
+  /* //background-attachment: fixed; */
+  /* max-width: 1286px;
+  height: 650px; */
+  /* position: relative; */
+  /* //text-align: center; */
+/* //}  */
+
+/* .app-image::before {
+  content: "";
+  display: block;
+  -webkit-filter: blur(1px) brightness(0.5);
+  -moz-filter: blur(1px) brightness(0.5);
+  -ms-filter: blur(1px) brightness(0.5);
+  -o-filter: blur(1px) brightness(0.5);
+  filter: blur(1px) brightness(0.5);
+  position: absolute;
+  left: 0px;
+  top: 10px;
+  right: 0px;
+  bottom: 10px;
+  background: inherit;
+  z-index: 0;
+} */
+
+header.header-nav.homey-in-view, 
+.main-search.homey-in-view, 
+.nav-area.homey-in-view {
+  opacity:1;
+  position: fixed !important;
+  visibility:visible;
+  transition: all 0.4s ease;
+  transform:translate(0, 0);
+  animation: fadein 0.4s;
+}
+
+input.form-control.email-input-1 {
+  border-bottom: none;
+  border-radius: 4px 4px 0 0;
+}
+
+input.form-control.email-input-2 { 
+  border-radius: 0 0 4px 4px;
+}
+
+input.form-control.email-input-3 { 
+  border-radius: 0;
+  border-bottom: none;
+}
+input.form-control.email-input-4 { 
+  border-radius: 0; 
+}
+input.form-control.email-input-5 { 
+  border-radius: 0; 
+  border-top: none;
+  border-bottom: none;
+}
+ 
+    
+.nav-pills>li.active>a, .nav-pills>li.active>a:focus, .nav-pills>li.active>a:hover{
+  background-color: transparent;
+  border-color: transparent transparent #f15e75;
+  border-bottom: 2px solid #f15e75 !important; 
+font-size: 14px; 
+letter-spacing: 0.11px;
+line-height: 20px;
+color: #4f5962;
+font-weight: bold;
+}
+.nav-pills>li>a {
+  border-radius: 0;
+  color: #4f5962;
+}
+
+.nav>li>a:focus, .nav>li>a:hover {
+  background-color: transparent; 
+}
+ 
+a:hover{
+  cursor: pointer;
+}
+.label-featured {
+  background-color: #54c4d9;
+  color: #ffffff;
+}
+
+
+.modal-backdrop{
+  background: black;
+  opacity: 0.6;
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  z-index: 1040;
+}
+
+.vc_custom_1550506741788 {
+  margin-top: -20px !important;
+  padding-top: 200px !important;
+  padding-bottom: 200px !important;
+}
+
+.vc_custom_1546984132006 {
+  background-color: #ffffff !important;
+}
+
+.vc_custom_1550506569465 {
+  background-color: #ffffff !important;
+}
+
+.wpb_button, .wpb_content_element, ul.wpb_thumbnails-fluid>li {
+  margin-bottom: 35px;
+}
+
+/* .full-width{
+  position: relative; left: -366.5px; box-sizing: border-box; width: 1903px; padding-left: 366.5px; padding-right: 366.5px;
+} */
+
+ 
+.search-button a {
+  line-height: 52px;
+}
+.bootstrap-select>select {
+  position: absolute!important;
+  bottom: 0;
+  left: 50%;
+  display: block!important;
+  width: .5px!important;
+  height: 100%!important;
+  padding: 0!important;
+  opacity: 1!important;
+  border: none;
+  z-index: 1!important;
+}
+
+li.fa {
+  letter-spacing: 3px;
+}
+
+.list-inline.rating>li {
+  padding-left: 0;
+}
+.user-avatar-xl {
+  width: 5rem;
+  height: 5rem;
+  font-size: 5rem;
+}
+
+.user-avatar {
+  position: relative;
+  margin-bottom: 0;
+  display: inline-block;
+  /* width: 2rem;
+  height: 2rem; */
+  font-size: 2rem;
+  border-radius: 4rem;
+  background-color: #fff;
+  vertical-align: middle;
+}
+
+.fileinput-button, .fileinput-dropzone {
+  position: relative;
+  overflow: hidden;
+  display: inline-block;
+}
+
+.fileinput-button-label {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  padding: 1rem;
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background-color: rgba(52,108,176,.86);
+  color: #fff;
+  font-size: .875rem;
+  text-align: center;
+  opacity: 0;
+  cursor: pointer;
+  z-index: 1;
+  -webkit-transition: opacity .2s;
+  transition: opacity .2s;
+}
+
+.user-avatar audio, .user-avatar canvas, .user-avatar img, .user-avatar video {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  border-radius: 4rem;
+}
+
+.fileinput-button input, .fileinput-dropzone input {
+  position: absolute;
+  top: 0;
+  left: 0;
+  margin: 0;
+  width: 100%;
+  height: 100%;
+  opacity: 0;
+  direction: ltr;
+  cursor: pointer;
+  z-index: 2;
+}
+.mb-3{
+  margin-bottom: 3rem;
+}
+
+.bg-white{
+  background-color: #ffffff;
+}
+.search-destination {
+  min-width: 330px;
+  position: relative;
+  z-index: 99;
+}
+div#section-body {
+  min-height: 103vh;
+}
+
+div#single-listing-date-range .form-group {
+  margin-bottom: 0;
+}
+
+.search-destination:after, .search-guests:after, .search-date-range-arrive:after, .search-date-range-depart:after{
+  top: 15px;
+}
+
+img.img-responsive.wp-post-image {
+  width: 450px;
+  height: 300px;
+}
+
+
+
+/* datetime picker css */
+/* .k-popup.k-child-animation-container.undefined {
+  height: 410px!important;
+} */
+
+/* .k-datetime-selector {
+  height: 275px!important;
+} */
+
+.k-popup {
+  font-size: 12px!important;
+}
+
+.k-action-buttons {
+  padding: 5px!important;
+}
+
+.k-datetime-selector {
+  height: 265px!important;
+}
+
+.k-datetime-container .k-datetime-buttongroup {
+  padding: 7px!important;
+}
+
+.k-popup.k-child-animation-container.undefined {
+  height: 360px!important;
+}
+
+.k-animation-container k-animation-container-relative k-datetime-container k-group k-reset k-animation-container-shown{
+  top: 453.08px!important;
+}
+
+.k-animation-container {
+ z-index:9999!important;
+}
+
+.k-widget.k-datetimepicker {
+  width: 100%!important;
+}
+
+.k-widget {
+  border-color: #d8dce1!important;
+  color: #d8dce1!important; 
+  border-radius: 0 0 4px 4px!important;
+}
+ 
+.k-dateinput .k-dateinput-wrap, .k-dateinput .k-picker-wrap, .k-datepicker .k-dateinput-wrap, .k-datepicker .k-picker-wrap, .k-datetimepicker .k-dateinput-wrap, .k-datetimepicker .k-picker-wrap, .k-timepicker .k-dateinput-wrap, .k-timepicker .k-picker-wrap {
+  border-width: 1px;
+  position: relative;
+  border-radius: 0 0 4px 4px;
+  border-color: #d8dce1!important;
+  color: #4f5962;
+}
+
+.k-dateinput .k-dateinput-wrap .k-input, .k-dateinput .k-picker-wrap .k-input, .k-datepicker .k-dateinput-wrap .k-input, .k-datepicker .k-picker-wrap .k-input, .k-datetimepicker .k-dateinput-wrap .k-input, .k-datetimepicker .k-picker-wrap .k-input, .k-timepicker .k-dateinput-wrap .k-input, .k-timepicker .k-picker-wrap .k-input {
+  color: rgba(0,0,0,0.87);
+  height: 42px;
+  box-shadow: none;
+  padding: 0 12px;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+}

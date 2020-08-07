@@ -1,0 +1,122 @@
+.item-amenities-button { 
+    display: flex;
+}
+
+.item-amenities-button li a {
+    display: flex;
+    justify-content: center;
+}
+
+.carousel .slide .legend {
+margin-left: -50%;
+width: 100%;
+bottom: -19px;
+border-radius: 0px;
+opacity: .25;
+left: 5%;
+font-size: 13px;
+}
+
+.carousel:hover .slide .legend {
+   opacity: 0.4; 
+}
+
+.carousel .control-dots .dot.selected{
+  opacity:0;
+}
+
+.carousel .control-dots .dot{
+   opacity:0;
+}
+
+.carousel .control-dots .dot:hover {
+    opacity: 0;
+}
+
+.block-col-25 {
+   width: 33%;
+}
+
+.carousel.carousel-slider .control-arrow:hover {
+  background: #f15e75;
+}
+
+/* .carousel.carousel-slider .control-arrow{
+  height: 40px;
+  width: 40px
+} */
+
+.carousel .control-prev.control-arrow:before{
+    border-right: 0;
+    content: "\f053"!important;
+    font-family: Fontawesome;
+}
+.carousel .control-next.control-arrow:before {
+    border-left: 0;
+    content: "\f054"!important;
+    font-family: Fontawesome;
+}
+.carousel .control-arrow:before, .carousel.carousel-slider .control-arrow:before {
+    margin: 0 5px;
+    display: inline-block; 
+    content: ''; 
+         border-top: none;  
+      border-bottom: none;
+}
+
+.carousel.carousel-slider .control-arrow { 
+    color: #fff;
+    font-size: 16px; 
+    padding: 5px;
+    border: 1px solid #f15e75;
+    background-color: #f15e75;
+    margin: 0 30px;
+    position: absolute;
+    top: 45%;
+    bottom: unset;
+}
+
+.carousel .control-arrow, .carousel.carousel-slider .control-arrow { 
+    opacity: 1;
+    height: 40px;
+    width: 40px;
+    z-index: 1;
+    text-align: center;
+    border-radius: 3px;
+    font-weight: 700;
+}
+
+.carousel.carousel-slider .control-arrow:hover {
+    background-color: #f58d9d;
+    border: 1px solid #f58d9d;
+    color: #fff;
+}
+
+.block-body-sidebar .btn-group, .btn-group-vertical { 
+    width: 100%;
+}
+
+.block-body-sidebar .dropup .dropdown-menu { 
+    width: 100%;
+    text-align: center;
+    padding: 12px 0;
+    background-color: rgba(0,0,0,0.8);
+}
+
+button.react-share__ShareButton.Demo__some-network__share-button {
+    margin-right: 10px;
+}
+
+button.react-share__ShareButton.Demo__some-network__share-button:last-of-type {
+    margin-right: 0px;
+}
+
+.modal-dialog {
+    width: 834px;
+    height: 533ppx;
+}
+.showTermModal {
+    opacity: 1;
+    z-index: 9999;
+    display: block;
+}

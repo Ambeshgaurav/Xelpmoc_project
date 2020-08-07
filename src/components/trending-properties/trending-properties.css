@@ -1,0 +1,88 @@
+.trending-property {
+    /* position: fixed;
+    z-index: 1000;
+    top:50%;
+    left:5%;
+    height: 100%;
+    width: 100%; */
+    /* //background-color: white; */
+    /* position: absolute;
+    top: 320px;
+    right: 218px; */
+}
+
+
+.latest-property-label{
+    color: white;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+
+.latest-property-div{
+    height: 170px;
+    background-color: white;   
+    margin:10px!important;
+    border:white
+}
+
+.latest-property-explore-btn{
+    margin: 0px;
+    font-size: 10px;
+    font-weight: 600;
+    padding: 0px;
+    width: 89%;
+    line-height: 30px;
+    position: relative;
+    right: -15px;
+    border-radius: 0px;
+}
+
+.latest-property-sidevisit-btn{
+    margin: 0px;
+    font-size: 10px;
+    font-weight: 600;
+    padding: 0px;
+    width: 88%;
+    line-height: 30px;
+    position: relative;
+    right: 0px;
+    border-radius: 0px;
+}
+
+/* Removes the clear button from datetime-local inputs */
+input[type="datetime-local"]::-webkit-clear-button {
+    display: none;
+}
+
+/* Removes the spin button */
+input[type="datetime-local"]::-webkit-inner-spin-button { 
+    display: none;
+}
+
+/* Always display the drop down caret */
+input[type="datetime-local"]::-webkit-calendar-picker-indicator {
+    color: #4f5962;
+}
+
+/* A few custom styles for datetime-local inputs */
+input[type="datetime-local"] {
+    appearance: none;
+    -webkit-appearance: none; 
+    font-family: "Helvetica", arial, sans-serif;
+    font-weight: 500;
+    font-size: 14px; 
+    border-color: #d8dce1;
+    color: #4f5962;
+    background: #ffffff;;
+    padding:5px;
+    display: inline-block !important;
+    visibility: visible !important;
+}
+
+input[type="datetime-local"], focus {
+    color: #4f5962;
+    box-shadow: none;
+    -webkit-box-shadow: none;
+    -moz-box-shadow: none;
+}
